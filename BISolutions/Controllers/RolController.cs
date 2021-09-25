@@ -19,12 +19,6 @@ namespace BISolutions.Controllers
         {
             _baseDatos = _context;
             _rolAppService = rolAppService;
-            /*
-            if (_baseDatos.Roles.Count() == 0)
-            {
-                _baseDatos.Roles.Add(new Rol { rol_descripcion = "Administrador de Sistema"});
-                _baseDatos.SaveChanges();
-            }*/
         }
 
         [HttpGet]

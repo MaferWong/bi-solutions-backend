@@ -19,12 +19,6 @@ namespace BISolutions.Controllers
         {
             _baseDatos = _context;
             _usuarioAppService = usuarioAppService;
-            /*
-            if (_baseDatos.Usuarios.Count() == 0)
-            {
-                _baseDatos.Usuarios.Add(new Usuario { usuario_nombre = "Usuario de Prueba", usuario_correo = "it.intern@altiabusinesspark.com", usuario_contrasena = "ItIntern1234", usuario_rol_id = 1 });
-                _baseDatos.SaveChanges();
-            }*/
         }
 
         [HttpGet]

@@ -19,12 +19,6 @@ namespace BISolutions.Controllers
         {
             _baseDatos = _context;
             _reporteAppService = reporteAppService;
-            /*
-            if (_baseDatos.Reportes.Count() == 0)
-            {
-                _baseDatos.Reportes.Add(new Reporte { reporte_descripcion = "Reporte de Prueba", reporte_URL = "https://app.powerbi.com/reportEmbed?reportId=28e60dbb-f6b7-44f7-9345-627f452f4291&autoAuth=true&ctid=df178cd5-c418-42f2-becc-9a19dd282438&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D", reporte_activo = "true" });
-                _baseDatos.SaveChanges();
-            }*/
         }
 
         [HttpGet]

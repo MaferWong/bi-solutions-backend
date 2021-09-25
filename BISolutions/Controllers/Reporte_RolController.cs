@@ -19,12 +19,6 @@ namespace BISolutions.Controllers
         {
             _baseDatos = _context;
             _reporteRolAppService = reporteRolAppService;
-            /*
-            if (_baseDatos.Reportes_Roles.Count() == 0)
-            {
-                _baseDatos.Reportes_Roles.Add(new Reporte_Rol { rol_id = 1, reporte_id = 1 });
-                _baseDatos.SaveChanges();
-            }*/
         }
 
         [HttpGet]
