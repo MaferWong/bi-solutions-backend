@@ -13,7 +13,7 @@ namespace BISolutions.DataContext
             builder.Property(e => e.reporte_id).IsRequired().UseIdentityColumn();
             builder.Property(e => e.reporte_descripcion).HasColumnType("nvarchar(max)").IsRequired();
             builder.Property(e => e.reporte_URL).HasColumnType("nvarchar(max)").IsRequired();
-            builder.Property(e => e.reporte_activo).HasColumnType("nvarchar(10)").IsRequired();
+            builder.Property(e => e.reporte_activo).HasColumnType("nvarchar(30)").IsRequired();
         }
     }
 }

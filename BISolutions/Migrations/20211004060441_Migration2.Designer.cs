@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BISolutions.Migrations
 {
     [DbContext(typeof(BISolutionsDataContext))]
-    [Migration("20210916174823_Migration1")]
-    partial class Migration1
+    [Migration("20211004060441_Migration2")]
+    partial class Migration2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,7 +35,7 @@ namespace BISolutions.Migrations
 
                     b.Property<string>("reporte_activo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(10)");
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("reporte_descripcion")
                         .IsRequired()

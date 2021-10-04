@@ -33,7 +33,7 @@ namespace BISolutions.Migrations
 
                     b.Property<string>("reporte_activo")
                         .IsRequired()
-                        .HasColumnType("nvarchar(10)");
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("reporte_descripcion")
                         .IsRequired()

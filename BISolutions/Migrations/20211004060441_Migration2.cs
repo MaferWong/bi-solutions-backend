@@ -2,7 +2,7 @@
 
 namespace BISolutions.Migrations
 {
-    public partial class Migration1 : Migration
+    public partial class Migration2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,7 +18,7 @@ namespace BISolutions.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     reporte_descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     reporte_URL = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    reporte_activo = table.Column<string>(type: "nvarchar(10)", nullable: false)
+                    reporte_activo = table.Column<string>(type: "nvarchar(30)", nullable: false)
                 },
                 constraints: table =>
                 {

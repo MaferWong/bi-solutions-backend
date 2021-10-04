@@ -39,8 +39,6 @@ namespace BISolutions
             services.AddScoped<UsuarioDomainService>();
             services.AddScoped<ReporteAppService>();
             services.AddScoped<ReporteDomainService>();
-            /*services.AddScoped<Rol_UsuarioAppService>();
-            services.AddScoped<Rol_UsuarioDomainService>();*/
             services.AddScoped<Reporte_RolAppService>();
             services.AddScoped<Reporte_RolDomainService>();
             services.AddScoped<LoginAppService>();
